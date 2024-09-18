@@ -2,7 +2,7 @@
 
 const url = process.env.APP_URL;
 
-interface phonesType {
+export interface phonesType {
   img: string;
   title: string;
   rame: string;

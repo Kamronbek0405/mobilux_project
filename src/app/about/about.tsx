@@ -1,7 +1,9 @@
 import React from 'react'
 import AboutLayout from './layout'
-import { Banners } from '../home/banners'
-import { Phone } from '../home/phone'
+import { Banners } from '../banners'
+import  Phone from '../phone/page'
+import { Notebook } from '../notebook/notebook'
+
 
 
  const About = async () => {
@@ -16,7 +18,12 @@ import { Phone } from '../home/phone'
      <section>
       <Phone/>
      </section>
+     <section>
+      <Notebook/>
+     </section>
     </div>
+    
+   
    </div>
   )
 }

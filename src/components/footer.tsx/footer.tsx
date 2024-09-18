@@ -5,7 +5,7 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className='flex items-start justify-between p-20 mt-16'>
+    <div className='flex items-start justify-between p-20 mt-16  sm:gap-10 sm:text-white sm:bg-black  md:bg-white md:text-black '>
       <div className='flex flex-col gap-3'>
         <span>
           <Logo />
